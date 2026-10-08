@@ -1,0 +1,4 @@
+A web-based online examination system built with PHP, MySQL, HTML, CSS, JavaScript, and AJAX. 
+Requires XAMPP with Apache and MySQL to run.
+Database tables and their fields are automatically created through the PHP files when the project is executed. 
+Responsive design, an exam countdown timer, and user login/authentication are planned for future development.
