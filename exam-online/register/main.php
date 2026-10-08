@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+<?php require_once "../panel/header.php" ?>
+    <div class="container1">
+        <form action="" method="post">
+            <div class="accounting">
+                <details>
+                    <summary>امور مالی و بازرگانی</summary>
+                    <table>
+                <tr>
+                    <td>
+                        <label for="exchange">تحلیل گر بورس (کار و دانش)</label>
+                        <input type="checkbox" name="exchange" id="exchange"></td>
+                    <td>
+                        <label for="exchange1">تحلیل گر بورس اوراق بهادار</label>
+                        <input type="checkbox" name="exchange1" id="exchange1"></td>
+                    <td>
+                        <label for="analyzer">تحليلگر تكنيكال بورس</label>
+                        <input type="checkbox" name="analyzer" id="Analyzer"></td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="salary">حسابدار حقوق و دستمزد</label>
+                        <input type="checkbox" name="salary" id="salary"></td>
+                    <td>
+                        <label for="industrial-accountant">حسابدار صنعتی درجه 2</label>
+                        <input type="checkbox" name="industrial-accountant" id="industrial-accountant"></td>
+                    <td>
+                        <label for="industrial-accountant1">حسابدار صنعتی درجه 1</label>
+                        <input type="checkbox" name="industrial-accountant1" id="industrial-accountant1"></td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="public-accountant">حسابدار عمومی پیشرفته</label>
+                        <input type="checkbox" name="public-accountant" id="public-accountant"></td>
+                    <td>
+                        <label for="general-accountant">حسابدار عمومی تکمیلی</label>
+                        <input type="checkbox" name="general-accountant" id="general-accountant"></td>
+                    <td>
+                        <label for="general-accountant1">حسابدار عمومی مقدماتی (کار و دانش)</label>
+                        <input type="checkbox" name="general-accountant1" id="general-accountant1"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tax-accountant">حسابدار مالیاتی</label>
+                        <input type="checkbox" name="tax-accountant" id="tax-accountant"></td>
+                    <td>
+                        <label for="financial-accounting">رایانه کار حسابداری مالی (کار و دانش)</label>
+                        <input type="checkbox" name="financial-accounting" id="financial-accounting"></td>
+                    <td>
+                        <label for="clearance-supervisor">سرپرست ترخیص محصول</label>
+                        <input type="checkbox" name="clearance-supervisor" id="clearance-supervisor"></td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="banking-user">کاربر امور بانکی</label>
+                        <input type="checkbox" name="banking-user" id="banking-user"></td>
+                    <td>
+                        <label for="responsible-orders">مسئول سفارشات</label>
+                        <input type="checkbox" name="responsible-orders" id="responsible-orders"></td>
+                    <td>
+                        <label for="selling-securities">متصدی پذیرش سفارش خرید و فروش اوراق بهادار</label>
+                        <input type="checkbox" name="selling-securities" id="selling-securities"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="analyzer1">تحليلگری بنيادی( فاندامنتال)</label>
+                            <input type="checkbox" name="analyzer1" id="analyzer1"></td>
+                    </tr>
+                </table>
+                </details>
+            </div>
+            <div class="accounting">
+                <details>
+                    <summary>دوره های عمومی کامپیوتر</summary>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="ICDL">ICDL</label>
+                            <input type="checkbox" name="ICDL" id="ICDL"></td>
+                        <td>
+                            <label for="e-citizen">شهروند الکترونیک</label>
+                            <input type="checkbox" name="e-citizen" id="e-citizen"></td>
+                        <td>
+                            <label for="computer-user">کاربر رایانه</label>
+                            <input type="checkbox" name="computer-user" id="computer-user"></td>
+                        <td>
+                            <label for="office-software-user">کاربر نرم افزار اداری</label>
+                            <input type="checkbox" name="office-software-user" id="office-software-user"></td>
+                    </tr>
+                </table>
+                </details>
+            </div>
+            <div class="accounting">
+                <details>
+                    <summary>فناوری اطلاعات</summary>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="spss">استفاده از نرم افزار SPSS درجه 1</label>
+                                <input type="checkbox" name="spss" id="spss"></td>
+
+                                <td>
+                                    <label for="unity-engine">بازی ساز مقدماتی با موتور يونيتی</label>
+                                    <input type="checkbox" name="unity-engine" id="unity-engine"></td>
+                            <td>
+                                <label for="spss2">استفاده ازنرم افزار SPSS درجه 2</label>
+                                <input type="checkbox" name="spss2" id="spss2"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="ms-project2">استفاده از نرم افزار کنترل پروژه MS-PROJECT درجه 2</label>
+                                <input type="checkbox" name="ms-project2" id="ms-project2"></td>
+                            <td>
+                                <label for="c-web">برنامه نویس C# (Web Application)</label>
+                                <input type="checkbox" name="c-web" id="c-web"></td>
+                            <td>
+                                <label for="c-win">برنامه نویس C# (Windows Application)</label>
+                                <input type="checkbox" name="c-win" id="c-win"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="wpf">برنامه نویس WPF</label>
+                                <input type="checkbox" name="wpf" id="wpf"></td>
+                            <td>
+                                <label for="html">برنامه نویس زبان HTML برای طراحی صفحات WEB p</label>
+                                <input type="checkbox" name="html" id="html"></td>
+                            <td>
+                                <label for="java">برنامه نویس زبان JAVA</label>
+                                <input type="checkbox" name="java" id="java"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="visual">رنامه نویسVISUAL-BASIC</label>
+                                <input type="checkbox" name="visual" id="visual"></td>
+                            <td>
+                                <label for="python">برنامه نویسی Python</label>
+                                <input type="checkbox" name="Python" id="Python"></td>
+                            <td>
+                                <label for="matlab">برنامه نویسی با Matlab</label>
+                                <input type="checkbox" name="matlab" id="matlab"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="game">برنامه نویسی بازی های رایانه ای</label>
+                                <input type="checkbox" name="game" id="game"></td>
+                            <td>
+                                <label for="ajax">برنامه نويس AJAX</label>
+                                <input type="checkbox" name="ajax" id="ajax"></td>
+                            <td>
+                                <label for="mvc">برنامه نويس MVC</label>
+                                <input type="checkbox" name="mvc" id="mvc"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="android">برنامه نويس برنامه های كاربردی Android</label>
+                                <input type="checkbox" name="android" id="android"></td>
+                            <td>
+                                <label for="linq">برنامه نويسی با LINQ</label>
+                                <input type="checkbox" name="linq" id="linq"></td>
+                            <td>
+                                <label for="scratch">برنامه نويسیScratch (بازی سازی و شبيه سازی كامپيوتری)</label>
+                                <input type="checkbox" name="scratch" id="scratch"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="abaqus">تحلیل ABAQUS</label>
+                                <input type="checkbox" name="abaqus" id="abaqus"></td>
+                            <td>
+                                <label for="WordPress">توسعه دهنده سیستم های مدیریت محتوای با WordPress</label>
+                                <input type="checkbox" name="wordpress" id="WordPress"></td>
+                            <td>
+                                <label for="mysql">توسعه دهنده صفحات وب با php و Mysql</label>
+                                <input type="checkbox" name="mysql" id="mysql"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="php">توسعه دهنده وب با PHP</label>
+                                <input type="checkbox" name="php" id="php"></td>
+                            <td>
+                                <label for="net">تولید کننده و توسعه دهنده پایگاه های اینترنتی</label>
+                                <input type="checkbox" name="net" id="net"></td>
+                                <td>
+                                    <label for="ms-project1">استفاده از نرم افزار کنترل پروژه MS-PROJECT درجه 1</label>
+                                    <input type="checkbox" name="ms-project1" id="ms-project1"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="electronic-marketing">بازاريابی الكترونيكی</label>
+                                <input type="checkbox" name="electronic-marketing" id="electronic-marketing"></td>
+                            <td>
+                                <label for="asp">برنامه نویس ASP.NET</label>
+                                <input type="checkbox" name="asp" id="asp"></td>
+
+                            <td>
+                                <label for="silver">برنامه نويس Silver Light</label>
+                                <input type="checkbox" name="silver" id="silver"></td>
+                        </tr>
+                        </table>
+                </details>
+            </div>
+            <div class="accounting">
+                <details>
+                    <summary>طراحی گرافیک</summary>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="illustrator">کاربر گرافیک رایانه ای با Adobe Illustrator</label>
+                                <input type="checkbox" name="illustrator" id="illustrator"></td>
+                            <td>
+                                <label for="indesign">کاربر گرافیک رایانه ای با InDesign</label>
+                                <input type="checkbox" name="indesign" id="indesign"></td>
+                            <td>
+                                <label for="after-effects">کارور After Effects</label>
+                                <input type="checkbox" name="after-effects" id="after-effects"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="auto-cad">کارور AUTO CAD</label>
+                                <input type="checkbox" name="auto-cad" id="auto-cad"></td>
+                            <td>
+                                <label for="CORELDRAW">کارور CORELDRAW (کار و دانش)</label>
+                                <input type="checkbox" name="CORELDRAW" id="CORELDRAW"></td>
+                            <td>
+                                <label for="Flash-MX">کارور Flash MX (کار و دانش)</label>
+                                <input type="checkbox" name="Flash-MX" id="Flash-MX"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="FLASH">کاروری FLASH</label>
+                                <input type="checkbox" name="FLASH" id="FLASH"></td>
+                            <td>
+                                <label for="FREEHAND">کاروری FREEHAND</label>
+                                <input type="checkbox" name="FREEHAND" id="FREEHAND"></td>
+                            <td>
+                                <label for="Captivate">کاروری Captivate</label>
+                                <input type="checkbox" name="Captivate" id="Captivate"></td>
+                        </tr>
+                    </table>
+                </details>
+            </div>
+            <div class="accounting">
+                <details>
+                    <summary>عمران و معماری</summary>
+                        <table>
+                        <tr>
+                            <td>
+                                <label for="architecture-designer">طراح معماری داخلی</label>
+                                <input type="checkbox" name="architecture-designer" id="architecture-designer"></td>
+                            <td>
+                                <label for="3dmax">طراح معماری با نرم افزار3 D Max</label>
+                                <input type="checkbox" name="3dmax" id="3dmax"></td>
+                            <td>
+                                <label for="ARCHICAD">طراحی معماری به کمک ARCHICAD</label>
+                                <input type="checkbox" name="ARCHICAD" id="ARCHICAD"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="Architecture">طراحی نقشه های ساختمانی با نرم افزار Revit Architecture</label>
+                                <input type="checkbox" name="Architecture" id="Architecture"></td>
+                            <td>
+                                <label for="Autocad">نقشه کش ساختمان با Autocad</label>
+                                <input type="checkbox" name="Autocad" id="Autocad"></td>
+                            <td>
+                                <label for="building-draftsman">نقشه کش عمومی ساختمان درجه 2 (کار و دانش)</label>
+                                <input type="checkbox" name="building-draftsman" id="building-draftsman"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="Architectural-drawing">نقشه کشی معماری (کار و دانش)</label>
+                                <input type="checkbox" name="Architectural-drawing" id="Architectural-drawing"></td>
+                    </tr>
+                    </table>
+                </details>
+            </div>
+            <div class="accounting">
+                <details>
+                    <summary>مکانیک</summary>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="ABAQUS">تحلیل مکانیکی با نرم افزار ABAQUS</label>
+                                <input type="checkbox" name="ABAQUS" id="ABAQUS"></td>
+                            <td>
+                                <label for="Rhino">طراح و مدل ساز با نرم افزار Rhino</label>
+                                <input type="checkbox" name="Rhino" id="Rhino"></td>
+                            <td>
+                                <label for="Power-Shad">طراحی با نرم افزار Power Shad</label>
+                                <input type="checkbox" name="Power-Shad" id="Power-Shad"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="Solid-Works">طراحی با نرم افزار Solid Works</label>
+                                <input type="checkbox" name="Solid-Works" id="Solid-Works"></td>
+                            <td>
+                                <label for="Inventor">طراحی و مدلسازی با Inventor</label>
+                                <input type="checkbox" name="Inventor" id="Inventor"></td>
+                            <td>
+                                <label for="Mechanical-Desktop">کاربر Mechanical Desktop درجه 2</label>
+                                <input type="checkbox" name="Mechanical-Desktop" id="Mechanical-Desktop"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="SOLID-WORKS">نقشه کش صنعتی با نرم افزار SOLID WORKS</label>
+                                <input type="checkbox" name="SOLID-WORKS" id="SOLID-WORKS"></td>
+                            <td>
+                                <label for="CATIA">نقشه کش و طراح صنعتی با CATIA</label>
+                                <input type="checkbox" name="CATIA" id="CATIA"></td>
+                    </tr>
+                    </table>
+                </details>
+            </div>
+            <div class="accounting">
+                <details>
+                    <summary>هنرهای تجسمی</summary>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="Artistic-planner">برنامه ریز امور هنری در خانواده</label>
+                                <input type="checkbox" name="Artistic-planner" id="Artistic-planner"></td>
+                            <td>
+                                <label for="gilding-work">تذهیب کار</label>
+                                <input type="checkbox" name="gilding-work" id="gilding-work"></td>
+                            <td>
+                                <label for="Calligraphy">خوشنویس با خودکار به شیوه ی خط نسخ</label>
+                                <input type="checkbox" name="Calligraphy" id="Calligraphy"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="Advanced-calligraphy">خوشنویس پیشرفته (عالی و ممتاز)</label>
+                                <input type="checkbox" name="Advanced-calligraphy" id="Advanced-calligraphy"></td>
+                            <td>
+                                <label for="Introductory-calligraphy">خوشنویسی مقدماتی (متوسط و خوش)</label>
+                                <input type="checkbox" name="Introductory-calligraphy" id="Introductory-calligraphy"></td>
+                            <td>
+                                <label for="Automatic-calligraphy">خوشنويسی با خودكار به شيوه خط نستعليق</label>
+                                <input type="checkbox" name="Automatic-calligraphy" id="Automatic-calligraphy"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="digital-album">ساخت آلبوم دیجیتال</label>
+                                <input type="checkbox" name="digital-album" id="digital-album"></td>
+                            <td>
+                                <label for="cartonage">سازنده وسايل وجعبه های تزئينی و كاربردی(كارتوناژ)</label>
+                                <input type="checkbox" name="cartonage" id="cartonage"></td>
+                            <td>
+                                <label for="Digital-photographer">عکاس دیجیتال</label>
+                                <input type="checkbox" name="Digital-photographer" id="Digital-photographer"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="drawing-instructor">مربی نقاشی کودک</label>
+                                <input type="checkbox" name="drawing-instructor" id="drawing-instructor"></td>
+                            <td>
+                                <label for="Miniature-maker">مینیاتور ساز</label>
+                                <input type="checkbox" name="Miniature-maker" id="Miniature-maker"></td>
+                            <td>
+                                <label for="Watercolor-painter">نقاش آبرنگ</label>
+                                <input type="checkbox" name="Watercolor-painter" id="Watercolor-painter"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="Acrylic-painter">نقاش آکریلیک</label>
+                                <input type="checkbox" name="Acrylic-painter" id="Acrylic-painter"></td>
+                            <td>
+                                <label for="Pastel-painter">نقاش پاستل</label>
+                                <input type="checkbox" name="Pastel-painter" id="Pastel-painter"></td>
+                            <td>
+                                <label for="Advanced-painter">نقاش پیشرفته</label>
+                                <input type="checkbox" name="Advanced-painter" id="Advanced-painter"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Oil-painter">نقاش رنگ روغن</label>
+                                <input type="checkbox" name="Oil-painter" id="Oil-painter"></td>
+                            <td>
+                                <label for="Painter-pottery">نقاش روی سفال</label>
+                                <input type="checkbox" name="Painter-pottery" id="Painter-pottery"></td>
+                            <td>
+                                <label for="Black-pen-painter">نقاش سیاه قلم</label>
+                                <input type="checkbox" name="Black-pen-painter" id="Black-pen-painter"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="stained-glass">نقاش شیشه های تزئینی ( ویترای )</label>
+                                <input type="checkbox" name="stained-glass" id="stained-glass"></td>
+                            <td>
+                                <label for="gouache-painter">نقاش گواش</label>
+                                <input type="checkbox" name="gouache-painter" id="gouache-painter"></td>
+                            <td>
+                                <label for="Color-painter">نقاش مدادرنگی</label>
+                                <input type="checkbox" name="Color-painter" id="Color-painter"></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <label for="Preliminary-painter">نقاش مقدماتی</label>
+                                <input type="checkbox" name="Preliminary-painter" id="Preliminary-painter"></td>
+                            <td>
+                                <label for="Art-home">هنر در خانه ( کار و دانش )</label>
+                                <input type="checkbox" name="Art-home" id="Art-home"></td>
+                        </tr></table>
+                </details>
+            </div>
+            <input type="submit" value="ثبت">
+            <input type="reset" value="انصراف">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container1{
+    padding: 20px;
+    margin-top: 5%;
+    background-color: #d1d2d2;
+}
+
+.accounting details{
+    margin: 15px 0;
+}
+
+.accounting summary{
+    background-color: #959595;
+    padding: 10px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 2px 3px aliceblue;
+}
+
+table{
+    width: 100%;
+    background-color: #fff;
+}
+
+td{
+    width: 24%;
+    padding: 10px 7px 10px 0;
+}
+
+.accounting td label, .accounting td input[type="checkbox"]{
+    cursor: pointer;
+}
+
+input[type="submit"], input[type="reset"]{
+    border: 0;
+    box-shadow: 5px 4px 6px 3px #484444;
+    width: 7%;
+    height: 30px;
+    background: ghostwhite;
+    margin: 15px 15px;
+}

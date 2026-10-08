@@ -1,0 +1,98 @@
+body{
+    border: 0;
+}
+
+.content{
+    width: 20%;
+    margin: auto;
+    border-width: 10px;
+    border-style: solid;
+    border-image: url("../assest/sjbeu.png") 30 round;
+    text-align: center;
+    position: relative;
+    transform: translateY(10%);
+    padding: 25px;
+}
+
+.container{
+    margin: auto;   
+    text-align: right;
+}
+
+.container label, .container select{
+    display: block;
+}
+
+.container span{
+    color: cornflowerblue;
+}
+
+.container input[type="text"],.container input[type="tel"],.container input[type="email"]{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 15px;
+    border: 0;
+    background-color: rgba(0, 41, 242, 0.3);
+    outline: none;
+}
+
+.container label{
+    margin:20px 2px 5px 0;
+}
+
+.container select{
+    padding: 7px 30.5%;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    appearance: none;
+    background-color: thistle;
+}
+
+.container option{
+    background-color: #fff;
+}
+
+.container option:hover{
+    background-color: #1d78b5;
+}
+
+.tooc-select{
+    position: relative;
+}
+
+.tooc{
+    width: 2em;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.tooc::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+}
+
+.button{
+    margin-top: 13px; 
+    text-align: center;
+}
+
+.button input[type="submit"],.button input[type="reset"]{
+    padding: 3px 7px;
+    border: 2px solid greenyellow;
+    background-color: mediumvioletred;
+}
+
+.button input[type="submit"]{
+    margin-right: 8px;
+}

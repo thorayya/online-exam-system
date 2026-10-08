@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+}
+
+.container-html{
+background-color: #ebb9d2;
+height: 100vh;
+}
+
+.questionh{
+    margin-right: 25%;
+    padding-top: 1.5%;
+    font-size: 105%;
+    font-weight: bolder;
+}
+
+ul li{
+list-style-type: none;
+display: inline;
+padding: 20px;
+}
+
+.question ul{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+padding: 20px;
+}
+
+.question ul li{
+margin:40px 50px;
+width: 350px;
+}
+
+.question1{
+display: flex;
+justify-content: center;
+border: 3px solid white;
+border-bottom: 1.5px solid white;
+}
+
+.question2
+{
+    border-bottom: 3.5px solid white;
+}
+
+.question1 input{
+opacity: 0;
+margin-left: -15px;
+}
+
+.question1 label{
+cursor: pointer;
+}
+
+.question1 input:checked ~ .check:after{
+display: block;
+}
+
+.check{
+position: absolute;
+height: 23px;
+width: 23px;
+background-color: #e8e8e8;
+margin-right: 10px;
+}
+
+.check::after{
+content: "";
+position: absolute;
+display: none;
+}
+
+.question1 .check::after{
+left: 7px;
+top: 1.75px;
+width: 7px;
+height: 12px;
+border: solid black;
+border-width: 0px 3px 3px 0px;
+transform: rotate(45deg);
+}
+
+@media screen and (max-width:992px) {
+    .container-html{
+        height: 100vh;
+        
+    }
+
+    .questionh{
+        margin-right: 16%;
+    }
+
+    .question ul li{
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width:410px) {
+
+
+    .questionh{
+        margin-right: 9%;
+        font-size: 14px;
+    }
+
+    .question ul li{
+        height: 70px;
+        margin: 20px 10px;
+        width: 185px;
+    }
+}
